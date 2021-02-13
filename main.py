@@ -75,7 +75,7 @@ def ubot():
 
         if float(now_price) <= float(price[0]) and float(now_price) != float(price[1]):
             headers = {
-                "Authorization": "Bearer " + "0b7JgWLaBQgwE3T3etqWxbzfJMOVQQnFw6lYm2AZdjg",
+                "Authorization": "Bearer " + "76wVTnMVotCKIUsRG5XfqoZjKftnDGKluFNCWl06Xtc",
                 "Content-Type": "application/x-www-form-urlencoded"
             }
             params = {"message":CurrencyCName+':'+str(now_price)}
