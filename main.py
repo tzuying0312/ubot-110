@@ -16,7 +16,7 @@ from linebot.models import (
 
 app = Flask(__name__)
 url = "https://mybank.ubot.com.tw/MyBank/IBKB040101"
-line_bot_api = LineBotApi('')
+line_bot_api = LineBotApi('yX15UFYuzoIDsZofzuTpWemtU2PnhC7MElCSw/qYLzlp3s/xXGcd2WQzzGD1kgPaKPjo48KEzfZEQZuDu81J0lMKSTzORoFBXN+nJWI50OOOMczWfjbuwOQLTEHB+6m2NrrLyWeZLv5vcQcdS2ujcQdB04t89/1O/w1cDnyilFU=')
 handler = WebhookHandler('ada9716b08814248b6bc2c65cf46d33b')
 
 def update_file(currency,now_price=None,opt=None,line='None'):
