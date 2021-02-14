@@ -9,7 +9,7 @@ import urllib.request
 
 sched = BlockingScheduler()
 
-@sched.scheduled_job('cron', day_of_week='mon-sun', hour='9-20',minute='*/5')
+@sched.scheduled_job('cron', day_of_week='mon-fri', hour='9-20',minute='*/5')
 def scheduled_job():
     url = "https://mybank.ubot.com.tw/MyBank/IBKB040101"
     res = requests.post(url)
